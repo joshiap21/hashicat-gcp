@@ -1,6 +1,6 @@
 module "network" {
   network_name = "gaurav-network"
-  project_id = var.project_id
+  project_id = var.project
   source  = "app.terraform.io/apj-driven-workflow/network/google"
   version = "3.4.0"
   subnets = [
